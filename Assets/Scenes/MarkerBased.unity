@@ -121,6 +121,34 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!21 &13179951
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'MarkerBased1Material
+
+    14654'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: bba5b6f824a94bb1b0862aa462e2e6db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &82437255
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,34 +1651,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253834335}
   m_CullTransparentMesh: 0
---- !u!21 &1386912170
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'MarkerBased1Material
-
-    123754'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: bba5b6f824a94bb1b0862aa462e2e6db, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &1412262105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1972,32 +1972,32 @@ PrefabInstance:
     - target: {fileID: 5427948176107622502, guid: d17380abae8a9294db72b245eb9a26bf,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.32936507
       objectReference: {fileID: 0}
     - target: {fileID: 5427948176107622502, guid: d17380abae8a9294db72b245eb9a26bf,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.32936507
       objectReference: {fileID: 0}
     - target: {fileID: 5427948176107622502, guid: d17380abae8a9294db72b245eb9a26bf,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.32936507
       objectReference: {fileID: 0}
     - target: {fileID: 5427948176107622502, guid: d17380abae8a9294db72b245eb9a26bf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.011260408
+      value: -0.001
       objectReference: {fileID: 0}
     - target: {fileID: 5427948176107622502, guid: d17380abae8a9294db72b245eb9a26bf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.053
       objectReference: {fileID: 0}
     - target: {fileID: 5427948176107622502, guid: d17380abae8a9294db72b245eb9a26bf,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.12733264
+      value: -0.12689
       objectReference: {fileID: 0}
     - target: {fileID: 5427948176107622502, guid: d17380abae8a9294db72b245eb9a26bf,
         type: 3}
@@ -2493,7 +2493,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1386912170}
+  - {fileID: 13179951}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
